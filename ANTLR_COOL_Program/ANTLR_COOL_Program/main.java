@@ -1,6 +1,7 @@
 package ANTLR_COOL_Program;
 
 import ANTLR_COOL_Program.SymbolTable.SymbolTable;
+import ANTLR_COOL_Program.SymbolTable.SymbolTableTraverser;
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.*;
 
@@ -25,7 +26,11 @@ public class main {
         ParseTree tree = parser.program();
 
         ParseTreeWalker walker = new ParseTreeWalker();
-        walker.walk(new SymbolTable(), tree);
+        SymbolTable symbolTable = new SymbolTable();
+        System.out.println("Creating Symbol Tables:======================================");
+        walker.walk(symbolTable, tree);
+        System.out.println("Analysing Symbol Tables:======================================");
+        walker.walk(new SymbolTableTraverser(symbolTable.ProgramTable), tree);
         System.out.println();
     }
 }

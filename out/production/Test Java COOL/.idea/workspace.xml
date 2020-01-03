@@ -1,11 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9436966b-4f5f-434b-a57d-95305905ea4a" name="Default Changelist" comment="" />
+    <list default="true" id="b542a07d-e757-4d94-bcd2-42fe4c57012c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/InheritanceCycleDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Java COOL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test Java COOL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLBaseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLBaseVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLLexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$AddContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$AddContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$AssignmentContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$AssignmentContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$BlockContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$BlockContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$BoolNotContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$BoolNotContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$CaseContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$CaseContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ClassDefineContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ClassDefineContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ClassesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ClassesContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$DivisionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$DivisionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$EofContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$EofContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$EqualContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$EqualContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ExpressionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ExpressionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FalseContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FalseContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FeatureContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FeatureContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FormalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FormalContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IdContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IdContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IfContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IfContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IntContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IntContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IsvoidContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IsvoidContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LessEqualContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LessEqualContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LessThanContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LessThanContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LetInContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LetInContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MethodCallContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MethodCallContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MethodContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MethodContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MinusContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MinusContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MultiplyContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MultiplyContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$NegativeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$NegativeContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$NewContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$NewContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$OwnMethodCallContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$OwnMethodCallContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ParenthesesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ParenthesesContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ProgramBlocksContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ProgramBlocksContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ProgramContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ProgramContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$PropertyContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$PropertyContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$StringContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$StringContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$TrueContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$TrueContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$WhileContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$WhileContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/SymbolTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/SymbolTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/Test Java COOL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/Test Java COOL.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1873749043">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="31" />
+          <entry key="java" value="3440" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3440" />
+          <entry key="PLAIN_TEXT" value="31" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
+                <element signature="e#1690#1691#0" expanded="true" />
+                <element signature="e#1717#1718#0" expanded="true" />
+                <element signature="e#2025#2026#0" expanded="true" />
+                <element signature="e#2052#2053#0" expanded="true" />
+                <element signature="e#2128#2129#0" expanded="true" />
+                <element signature="e#2165#2166#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#176#185#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1358#1359#0" expanded="true" />
+                <element signature="e#1740#1741#0" expanded="true" />
+                <element signature="e#1767#1768#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1566#1567#0" expanded="true" />
+                <element signature="e#2075#2076#0" expanded="true" />
+                <element signature="e#2102#2103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/InheritanceCycleDetector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#206#230#0" expanded="true" />
+                <element signature="e#735#750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,48 +193,95 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1VpI3btiyxJhBptGRDfh0IzC2XJ" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>property</find>
+      <find>getChannelNames</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLLexer.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/InheritanceCycleDetector.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CoolCompiler-fumproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoolCompiler-fumproj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoolCompiler-fumproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoolCompiler-fumproj" type="462c0819:PsiDirectoryNode" />
+              <item name="ANTLR_COOL_Program" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoolCompiler-fumproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoolCompiler-fumproj" type="462c0819:PsiDirectoryNode" />
+              <item name="ANTLR_COOL_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="ANTLR_COOL_Program" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoolCompiler-fumproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoolCompiler-fumproj" type="462c0819:PsiDirectoryNode" />
+              <item name="ANTLR_COOL_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="ANTLR_COOL_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="SymbolTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoolCompiler-fumproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4::/auto-gen" value="false" />
-    <property name="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4::/gen-listener" value="true" />
-    <property name="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4::/gen-visitor" value="true" />
-    <property name="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4::/language" value="Java" />
-    <property name="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4::/lib-dir" value="$PROJECT_DIR$/ANTLR_COOL_Program" />
-    <property name="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4::/output-dir" value="$PROJECT_DIR$/ANTLR_COOL_Program" />
-    <property name="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4::/package" value="ANTLR_COOL_Program" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../antlr-4.5-complete.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578057838399" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Phase 1/antlr/antlr-4.7.2-complete.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.antlr.intellij.plugin.configdialogs.ANTLRv4ProjectSettings" />
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="Test Java COOL" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ANTLR_COOL_Program.MainClass" />
-      <module name="Test Java COOL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ANTLR_COOL_Program.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ANTLR_COOL_Program.main" />
       <module name="Test Java COOL" />
@@ -72,76 +298,262 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.MainClass (1)" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9436966b-4f5f-434b-a57d-95305905ea4a" name="Default Changelist" comment="" />
-      <created>1577943411759</created>
+      <changelist id="b542a07d-e757-4d94-bcd2-42fe4c57012c" name="Default Changelist" comment="" />
+      <created>1577976759524</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577943411759</updated>
+      <updated>1577976759524</updated>
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="793" y="252" width="324" height="608" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1577944742600">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state x="793" y="252" width="324" height="608" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577944742600" />
-    <state x="693" y="303" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577944959374">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state x="693" y="303" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577944959374" />
-    <state x="707" y="298" width="735" height="517" key="FileChooserDialogImpl" timestamp="1577945637467">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state x="707" y="298" width="735" height="517" key="FileChooserDialogImpl/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577945637467" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1577946475427">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946475427" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1577946475427">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946475427" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1577946475427">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946475427" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1577946475427">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946475427" />
-    <state x="449" y="189" width="1022" height="732" key="SettingsEditor" timestamp="1577945639718">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state x="449" y="189" width="1022" height="732" key="SettingsEditor/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577945639718" />
-    <state x="616" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1577946495339">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946495339" />
-    <state x="1920" y="0" width="1527" height="703" maximized="true" key="dock-window-1" timestamp="1577946500580">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1920" y="0" width="1527" height="703" maximized="true" key="dock-window-1/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946500580" />
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Tool Output" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../Phase 1/antlr/antlr-4.5-complete.jar!/org/antlr/v4/runtime/Lexer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="118" column="15" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1717#1718#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2052#2053#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2165#2166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Phase 1/antlr/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="264" selection-start-line="264" selection-end-line="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/InheritanceCycleDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#230#0" expanded="true" />
+            <element signature="e#735#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#176#185#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Test Java COOL</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>antlr-4.7.2-complete</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
