@@ -1,80 +1,63 @@
 package ANTLR_COOL_Program.SymbolTable;
 
-import ANTLR_COOL_Program.COOLParser;
-
 import java.util.*;
 
 public class InheritanceCycleDetector {
-    HashMap<String, InheritanceCycleInfo> searchedClassTrees = new HashMap<String, InheritanceCycleInfo>();
+    HashMap<String, Table> analysedClasses = new HashMap<String, Table>();
 
-    public boolean HasCycle(Table startClassNode){
-        if(searchedClassTrees.containsKey(startClassNode.id)){ //the table has searched before
-            return searchedClassTrees.get(startClassNode.id).hasCycle;
+    // print error if the class is in the not-found inheritance cycle
+    public void CheckCycle(Table startClassNode){
+        if(analysedClasses.containsKey(startClassNode.id)){
+            return;
+        }
+
+        Table programTable = startClassNode.parent;
+        if(startClassNode.properties[1] == null){
+            analysedClasses.put(startClassNode.id, startClassNode); //add to analysed classes
+            return; //no cycle
         }
         else{
-            Table currentClass = startClassNode;
-            Table previousClass = currentClass;
-            Table programTable = currentClass.parent;
-            HashMap<String, Table> classTree = new HashMap<String, Table>();
-            boolean hasCycle = false;
-
-            //traverse through base classes path
-            while(currentClass != null){
-                classTree.put(currentClass.id, currentClass);
-                previousClass = currentClass;
-
-                //has base class
-                if(currentClass.properties[1] != null){
-                    currentClass = FindBaseClass(programTable, currentClass.properties[1]);
-
-                    if(startClassNode == currentClass){    //reached the start class again
-                        hasCycle = true;
-                        break;
-                    }
-                }
-                else{
-                    currentClass = null;
-                }
+            Table baseClass = FindBaseClass(programTable, startClassNode.properties[1]);
+            if(baseClass == null || analysedClasses.containsKey(baseClass.id)){    //base class not exist or analysed before
+                analysedClasses.put(startClassNode.id, startClassNode); //add to analysed classes
+                return;
             }
-
-            //add table tree to searched table trees in order to not analyse them again
-            InheritanceCycleInfo searchedClasses = new InheritanceCycleInfo(previousClass, hasCycle, classTree);
-            searchedClassTrees.put(searchedClasses.rootClass.id, searchedClasses);
-
-            return hasCycle;
         }
-    }
 
-    public String GetClassInheritancePath(Table currentClass){
-        Table programTable = currentClass.parent;
-        Table startCycleClass = currentClass;
-
-        //add first class
-        String classPath = currentClass.id;
-        if(currentClass.properties[1] != null){
-            currentClass = FindBaseClass(programTable, currentClass.properties[1]);
-        }
-        else{
-            currentClass = null;
-        }
+        //the class has noy analysed before, so analyse it
+        Table currentClass = startClassNode;
+        HashMap<String, Table> inheritanceTree = new HashMap<String, Table>();
+        ArrayList<String> classIds = new ArrayList<String>();
 
         //traverse through base classes path
         while(currentClass != null){
-            classPath += " -> " + currentClass.id;
+            if(inheritanceTree.containsKey(currentClass.id)){   //reached on of the traversed classes again
+                //print error
+                System.out.println("Error108 : invalid inheritance " + GetInheritancePath(classIds));
+                break;
+            }
 
-            //has base class
+            //track class path
+            inheritanceTree.put(currentClass.id, currentClass);
+            analysedClasses.put(currentClass.id, currentClass); //add to analysed classes
+            classIds.add(currentClass.id);
+
+            //get base class
             if(currentClass.properties[1] != null){
                 currentClass = FindBaseClass(programTable, currentClass.properties[1]);
-
-                if(startCycleClass == currentClass){    //reached the start class again
-                    classPath += " -> " + currentClass.id;
-                    break;
-                }
             }
             else{
                 currentClass = null;
             }
         }
+    }
+
+    private String GetInheritancePath(ArrayList<String> classIds){
+        String classPath = classIds.get(0);
+        for(int i =1; i < classIds.size(); i++){
+            classPath += " -> " + classIds.get(i);
+        }
+        classPath += " -> " + classIds.get(0);
 
         return classPath;
     }
@@ -90,17 +73,5 @@ public class InheritanceCycleDetector {
         }
 
         return null;
-    }
-}
-
-class InheritanceCycleInfo {
-    public Table rootClass;
-    public boolean hasCycle;
-    public HashMap<String, Table> classTree;
-
-    public InheritanceCycleInfo(Table rootClass, boolean hasCycle, HashMap<String, Table> classTree){
-        this.rootClass = rootClass;
-        this.hasCycle = hasCycle;
-        this.classTree = classTree;
     }
 }

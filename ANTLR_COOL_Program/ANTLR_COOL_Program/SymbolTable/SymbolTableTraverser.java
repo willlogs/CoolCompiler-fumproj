@@ -2,8 +2,6 @@ package ANTLR_COOL_Program.SymbolTable;
 
 import ANTLR_COOL_Program.COOLBaseListener;
 import ANTLR_COOL_Program.COOLParser;
-import org.antlr.v4.runtime.ParserRuleContext;
-import org.antlr.v4.runtime.tree.TerminalNode;
 
 import java.util.Stack;
 
@@ -26,12 +24,7 @@ public class SymbolTableTraverser extends COOLBaseListener {
     @Override
     public void enterClassDefine(COOLParser.ClassDefineContext ctx) {
         EnterTable();
-
-        //check inheritance cycle
-        if(inherCycleDetector.HasCycle(currNode)){
-            System.out.println("Error108 : invalid inheritance " + inherCycleDetector.GetClassInheritancePath(currNode));
-            //System.out.println("Error108 : invalid inheritance cycle found");
-        }
+        inherCycleDetector.CheckCycle(currNode);
     }
 
     @Override
