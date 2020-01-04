@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9436966b-4f5f-434b-a57d-95305905ea4a" name="Default Changelist" comment="" />
+    <list default="true" id="9436966b-4f5f-434b-a57d-95305905ea4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOL.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOL.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/SymbolTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/SymbolTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/COOL.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/COOL.g4" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1VpI3btiyxJhBptGRDfh0IzC2XJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +49,7 @@
     <property name="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4::/output-dir" value="$PROJECT_DIR$/ANTLR_COOL_Program" />
     <property name="$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4::/package" value="ANTLR_COOL_Program" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../antlr-4.5-complete.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -111,37 +132,65 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="693" y="303" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577944959374" />
+    <state width="425" height="466" key="DebuggerActiveHint" timestamp="1578046014089">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="425" height="466" key="DebuggerActiveHint/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578046014089" />
     <state x="707" y="298" width="735" height="517" key="FileChooserDialogImpl" timestamp="1577945637467">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="707" y="298" width="735" height="517" key="FileChooserDialogImpl/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577945637467" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1577946475427">
+    <state width="1874" height="342" key="GridCell.Tab.0.bottom" timestamp="1578046427340">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946475427" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1577946475427">
+    <state width="1874" height="342" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578046427340" />
+    <state width="1874" height="342" key="GridCell.Tab.0.center" timestamp="1578046427340">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946475427" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1577946475427">
+    <state width="1874" height="342" key="GridCell.Tab.0.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578046427340" />
+    <state width="1874" height="342" key="GridCell.Tab.0.left" timestamp="1578046427340">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946475427" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1577946475427">
+    <state width="1874" height="342" key="GridCell.Tab.0.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578046427340" />
+    <state width="1874" height="342" key="GridCell.Tab.0.right" timestamp="1578046427340">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946475427" />
+    <state width="1874" height="342" key="GridCell.Tab.0.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578046427340" />
+    <state width="1874" height="342" key="GridCell.Tab.1.bottom" timestamp="1578046435654">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.1.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578046435654" />
+    <state width="1874" height="342" key="GridCell.Tab.1.center" timestamp="1578046435654">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.1.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578046435654" />
+    <state width="1874" height="342" key="GridCell.Tab.1.left" timestamp="1578046435654">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.1.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578046435654" />
+    <state width="1874" height="342" key="GridCell.Tab.1.right" timestamp="1578046435654">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="342" key="GridCell.Tab.1.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578046435654" />
     <state x="449" y="189" width="1022" height="732" key="SettingsEditor" timestamp="1577945639718">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="449" y="189" width="1022" height="732" key="SettingsEditor/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577945639718" />
-    <state x="616" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1577946495339">
+    <state x="584" y="207" width="800" height="530" key="Vcs.Push.Dialog.v2" timestamp="1577961128891">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946495339" />
-    <state x="1920" y="0" width="1527" height="703" maximized="true" key="dock-window-1" timestamp="1577946500580">
+    <state x="584" y="207" width="800" height="530" key="Vcs.Push.Dialog.v2/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577961128891" />
+    <state x="616" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578154601767">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578154601767" />
+    <state x="2168" y="0" width="1527" height="703" maximized="true" key="dock-window-1" timestamp="1578154604627">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="1920" y="0" width="1527" height="703" maximized="true" key="dock-window-1/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577946500580" />
+    <state x="2168" y="0" width="1527" height="703" maximized="true" key="dock-window-1/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1578154604627" />
+    <state x="693" y="322" width="524" height="465" key="extract.method.dialog" timestamp="1577947269042">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="693" y="322" width="524" height="465" key="extract.method.dialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1577947269042" />
   </component>
 </project>
