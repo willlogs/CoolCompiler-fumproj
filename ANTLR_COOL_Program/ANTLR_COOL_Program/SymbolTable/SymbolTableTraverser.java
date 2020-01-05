@@ -81,12 +81,9 @@ public class SymbolTableTraverser extends COOLBaseListener {
     }
 
     public static Table FindType(String typeText){
-        Iterator<Table> iterator = programTable.decs.descendingIterator();
-
-        while(iterator.hasNext()){
-            Table currentClass = iterator.next();
-            if(currentClass.id.equals(typeText)){
-                return currentClass;
+        for(int i=0; i< programTable.decs.size(); i++){
+            if(typeText.equals(programTable.decs.get(i).id)){
+                return programTable.decs.get(i);
             }
         }
 

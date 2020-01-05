@@ -2,12 +2,13 @@ package ANTLR_COOL_Program.SymbolTable;
 
 import org.antlr.v4.runtime.ParserRuleContext;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class Table {
     public ParserRuleContext ctx;
-    public LinkedList<Table> decs;
+    public ArrayList<Table> decs;
     public Table parent;
     public String type;
     public String id;
@@ -18,7 +19,7 @@ public class Table {
     public Table(ParserRuleContext ctx, Table par, String type, String id, String[] props, int line){
         this.ctx = ctx;
         parent = par;
-        decs = new LinkedList<Table>();
+        decs = new ArrayList<Table>();
         this.type = type;
         this.id = id;
         properties = props;
@@ -26,13 +27,24 @@ public class Table {
         mainMethod = null;
     }
 
-    public void print(int intent){
-        for(int i = 0; i < intent; i++)    System.out.print("  ");
+    public void print(int indent){
+        for(int i = 0; i < indent; i++)    System.out.print("  ");
         System.out.print(type + " " + id + ": ");
-        if(properties.length > 1) System.out.println(properties[1]);
-        else System.out.println(properties[0]);
+
+        if(properties != null){
+            if(properties[0] != null){
+                System.out.print(properties[0]);
+            }
+            for(int i =1; i < properties.length; i++){
+                if(properties[i] != null){
+                    System.out.print(", " + properties[i]);
+                }
+            }
+            System.out.println();
+        }
+
         for(Table t : decs){
-            t.print(intent + 1);
+            t.print(indent + 1);
         }
     }
 

@@ -12,12 +12,12 @@ public class InheritanceCycleDetector {
         }
 
         Table programTable = startClassNode.parent;
-        if(startClassNode.properties[1] == null){
+        if(startClassNode.properties[0] == null){
             analysedClasses.put(startClassNode.id, startClassNode); //add to analysed classes
             return; //no cycle
         }
         else{
-            Table baseClass = SymbolTableTraverser.FindType(startClassNode.properties[1]);
+            Table baseClass = SymbolTableTraverser.FindType(startClassNode.properties[0]);
             if(baseClass == null || analysedClasses.containsKey(baseClass.id)){    //base class not exist or analysed before
                 analysedClasses.put(startClassNode.id, startClassNode); //add to analysed classes
                 return;
@@ -43,8 +43,8 @@ public class InheritanceCycleDetector {
             classIds.add(currentClass.id);
 
             //get base class
-            if(currentClass.properties[1] != null){
-                currentClass = SymbolTableTraverser.FindType(currentClass.properties[1]);
+            if(currentClass.properties[0] != null){
+                currentClass = SymbolTableTraverser.FindType(currentClass.properties[0]);
             }
             else{
                 currentClass = null;
