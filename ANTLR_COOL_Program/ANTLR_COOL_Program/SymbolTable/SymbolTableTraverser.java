@@ -3,16 +3,18 @@ package ANTLR_COOL_Program.SymbolTable;
 import ANTLR_COOL_Program.COOLBaseListener;
 import ANTLR_COOL_Program.COOLParser;
 
+import java.util.Iterator;
 import java.util.Stack;
 
 public class SymbolTableTraverser extends COOLBaseListener {
-    Table programTable;
+    static Table programTable;
     Table currNode;
     Stack<Integer> traversedNodes = new Stack<Integer>();
-    InheritanceCycleDetector inherCycleDetector = new InheritanceCycleDetector();
+    InheritanceCycleDetector classUtility = new InheritanceCycleDetector();
+    MethodReturnTypeChecker methodReturnChecker = new MethodReturnTypeChecker();
 
     public SymbolTableTraverser(Table programTable){
-        this.programTable = programTable;
+        SymbolTableTraverser.programTable = programTable;
     }
 
     @Override
@@ -24,7 +26,7 @@ public class SymbolTableTraverser extends COOLBaseListener {
     @Override
     public void enterClassDefine(COOLParser.ClassDefineContext ctx) {
         EnterTable();
-        inherCycleDetector.CheckCycle(currNode);
+        classUtility.CheckCycle(currNode);
     }
 
     @Override
@@ -35,6 +37,7 @@ public class SymbolTableTraverser extends COOLBaseListener {
     @Override
     public void enterMethod(COOLParser.MethodContext ctx) {
         EnterTable();
+        methodReturnChecker.CheckMethodReturnType(ctx, currNode);
     }
 
     @Override
@@ -77,4 +80,31 @@ public class SymbolTableTraverser extends COOLBaseListener {
         traversedNodes.pop();
     }
 
+    public static Table FindType(String typeText){
+        Iterator<Table> iterator = programTable.decs.descendingIterator();
+
+        while(iterator.hasNext()){
+            Table currentClass = iterator.next();
+            if(currentClass.id.equals(typeText)){
+                return currentClass;
+            }
+        }
+
+        return null;
+    }
+
+    public static Table FindSymbol(String symbolText, Table currentTable){
+        for(Table table : currentTable.decs){
+            if(table.id.equals(symbolText)){
+                return table;
+            }
+        }
+
+        //find in parent
+        if(currentTable.parent != null){
+            return  FindSymbol(symbolText, currentTable.parent);
+        }
+
+        return null;
+    }
 }

@@ -17,7 +17,7 @@ public class InheritanceCycleDetector {
             return; //no cycle
         }
         else{
-            Table baseClass = FindBaseClass(programTable, startClassNode.properties[1]);
+            Table baseClass = SymbolTableTraverser.FindType(startClassNode.properties[1]);
             if(baseClass == null || analysedClasses.containsKey(baseClass.id)){    //base class not exist or analysed before
                 analysedClasses.put(startClassNode.id, startClassNode); //add to analysed classes
                 return;
@@ -44,7 +44,7 @@ public class InheritanceCycleDetector {
 
             //get base class
             if(currentClass.properties[1] != null){
-                currentClass = FindBaseClass(programTable, currentClass.properties[1]);
+                currentClass = SymbolTableTraverser.FindType(currentClass.properties[1]);
             }
             else{
                 currentClass = null;
@@ -60,18 +60,5 @@ public class InheritanceCycleDetector {
         classPath += " -> " + classIds.get(0);
 
         return classPath;
-    }
-
-    Table FindBaseClass(Table programTable, String baseName){
-        Iterator<Table> iterator = programTable.decs.descendingIterator();
-
-        while(iterator.hasNext()){
-            Table currentClass = iterator.next();
-            if(currentClass.id.equals(baseName)){
-                return currentClass;
-            }
-        }
-
-        return null;
     }
 }
