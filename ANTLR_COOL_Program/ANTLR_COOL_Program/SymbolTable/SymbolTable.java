@@ -19,7 +19,7 @@ public class SymbolTable extends COOLBaseListener {
 
     @Override
     public void enterProgram(COOLParser.ProgramContext ctx) {
-        ProgramTable = new Table(ctx, null, "Program", "Program", emptyStringArr);
+        ProgramTable = new Table(ctx, null, "Program", "Program", emptyStringArr, ctx.getStart().getLine());
         currNode = ProgramTable;
     }
 
@@ -64,11 +64,12 @@ public class SymbolTable extends COOLBaseListener {
 
     @Override
     public void exitProgram(COOLParser.ProgramContext ctx) {
-        ProgramTable.print(0);
+        //ProgramTable.print(0);
+        ProgramTable.CheckDecs();
     }
 
     private void Addtable(ParserRuleContext ctx, String type, String id, String[] properties) {
-        Table newtable = new Table(ctx, currNode, type, id, properties);
+        Table newtable = new Table(ctx, currNode, type, id, properties, ctx.getStart().getLine());
         currNode.decs.add(newtable);
         currNode = newtable;
     }

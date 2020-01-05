@@ -55,7 +55,7 @@ public class SymbolTableTraverser extends COOLBaseListener {
     @Override
     public void exitProgram(COOLParser.ProgramContext ctx) {
         ExitTable();
-        programTable.print(0);
+        //programTable.print(0);
     }
 
     private void EnterTable(){
