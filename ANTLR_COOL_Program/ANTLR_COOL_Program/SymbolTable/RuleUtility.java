@@ -89,11 +89,15 @@ public class RuleUtility {
 //            }
         }
         else if(ctx instanceof MethodCallContext){
-            Table methodSymbol = SymbolTableTraverser.FindSymbol(((MethodCallContext)ctx).OBJECTID().getSymbol().getText()
-                    , currNode);
-            if(methodSymbol != null && methodSymbol.type.equals("Method")){
-                errorLine.value = ((MethodCallContext)ctx).OBJECTID().getSymbol().getLine();
-                return methodSymbol.properties[0];
+            String callerExprType = GetExpressionType(((MethodCallContext)ctx).expression(0), currNode, errorLine);
+            Table callerClass = SymbolTableTraverser.FindType(callerExprType);
+            if(callerClass != null){
+                Table methodSymbol = SymbolTableTraverser.FindSymbol(((MethodCallContext)ctx).OBJECTID().getSymbol().getText()
+                        , callerClass);
+                if(methodSymbol != null && methodSymbol.type.equals("Method")){
+                    errorLine.value = ((MethodCallContext)ctx).OBJECTID().getSymbol().getLine();
+                    return methodSymbol.properties[0];
+                }
             }
         }
         else if(ctx instanceof OwnMethodCallContext){

@@ -21,6 +21,7 @@ public class SymbolTable extends COOLBaseListener {
     public void enterProgram(COOLParser.ProgramContext ctx) {
         ProgramTable = new Table(ctx, null, "Program", "Program", emptyStringArr, ctx.getStart().getLine());
         currNode = ProgramTable;
+        AddDefaultTypes();
     }
 
     @Override
@@ -101,5 +102,18 @@ public class SymbolTable extends COOLBaseListener {
     private void ExitTable() {
         if (currNode.parent != null)
             currNode = currNode.parent;
+    }
+
+    private void AddDefaultTypes() {
+//        String[] properties = new String[1];    //no base class
+//        //add Int
+//        Table intClass = new Table(null, ProgramTable, "Class", "Int", properties, 0);
+//        //add String
+//        Table stringClass = new Table(null, ProgramTable, "Class", "String", properties, 0);
+//        //add Object
+//        Table objectClass = new Table(null, ProgramTable, "Class", "Object", properties, 0);
+//        ProgramTable.decs.add(intClass);
+//        ProgramTable.decs.add(stringClass);
+//        ProgramTable.decs.add(objectClass);
     }
 }

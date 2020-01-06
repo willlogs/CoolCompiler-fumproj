@@ -2,60 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b542a07d-e757-4d94-bcd2-42fe4c57012c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/InheritanceCycleDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test Java COOL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test Java COOL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLBaseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLBaseVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLLexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$AddContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$AddContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$AssignmentContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$AssignmentContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$BlockContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$BlockContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$BoolNotContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$BoolNotContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$CaseContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$CaseContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ClassDefineContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ClassDefineContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ClassesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ClassesContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$DivisionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$DivisionContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$EofContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$EofContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$EqualContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$EqualContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ExpressionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ExpressionContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FalseContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FalseContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FeatureContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FeatureContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FormalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$FormalContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IdContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IdContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IfContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IfContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IntContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IntContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IsvoidContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$IsvoidContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LessEqualContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LessEqualContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LessThanContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LessThanContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LetInContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$LetInContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MethodCallContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MethodCallContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MethodContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MethodContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MinusContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MinusContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MultiplyContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$MultiplyContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$NegativeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$NegativeContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$NewContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$NewContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$OwnMethodCallContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$OwnMethodCallContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ParenthesesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ParenthesesContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ProgramBlocksContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ProgramBlocksContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ProgramContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$ProgramContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$PropertyContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$PropertyContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$StringContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$StringContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$TrueContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$TrueContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$WhileContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser$WhileContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/COOLVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/SymbolTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/SymbolTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/SymbolTable/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/ANTLR_COOL_Program/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Java COOL/Test Java COOL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Java COOL/Test Java COOL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/RuleUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/RuleUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,33 +17,37 @@
     <session id="1873749043">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.194" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="9" />
+          <entry key="class" value="6" />
+          <entry key="g4" value="1" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="9" />
+          <entry key="ANTLR v4 grammar file" value="1" />
+          <entry key="CLASS" value="6" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="31" />
-          <entry key="java" value="3440" />
+          <entry key="java" value="13138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3440" />
+          <entry key="JAVA" value="13138" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -103,83 +56,71 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java">
+        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="141">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
-                <element signature="e#1365#1366#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1690#1691#0" expanded="true" />
-                <element signature="e#1717#1718#0" expanded="true" />
-                <element signature="e#2025#2026#0" expanded="true" />
-                <element signature="e#2052#2053#0" expanded="true" />
-                <element signature="e#2128#2129#0" expanded="true" />
-                <element signature="e#2165#2166#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="116" selection-end-column="45" />
+              <folding>
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
+                <element signature="e#1770#1771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="158">
+              <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#176#185#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
-                <element signature="e#1358#1359#0" expanded="true" />
-                <element signature="e#1740#1741#0" expanded="true" />
-                <element signature="e#1767#1768#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="e#2075#2076#0" expanded="true" />
-                <element signature="e#2102#2103#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1411#1412#0" expanded="true" />
+                <element signature="e#1653#1654#0" expanded="true" />
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="e#1789#1790#0" expanded="true" />
+                <element signature="e#1824#1825#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/InheritanceCycleDetector.java">
+        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/RuleUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="277">
+              <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#206#230#0" expanded="true" />
-                <element signature="e#735#750#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java">
+        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Table.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -198,6 +139,17 @@
       <find>property</find>
       <find>getChannelNames</find>
       <find>print</find>
+      <find>ChekDec</find>
+      <find>checkDecs</find>
+      <find>double</find>
+      <find>getline</find>
+      <find>self</find>
+      <find>FindCaseType</find>
+      <find>enter</find>
+      <find>enterFormal</find>
+      <find>enterid</find>
+      <find>properties[</find>
+      <find>properties[1]</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,10 +159,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLLexer.java" />
-        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java" />
-        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java" />
-        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/InheritanceCycleDetector.java" />
         <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/ClassTypeUtility.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/MethodTable.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/InheritanceCycleDetector.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Table.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/MethodUtility.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/MethodReturnTypeChecker.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/RuleUtility.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java" />
+        <option value="$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java" />
       </list>
     </option>
   </component>
@@ -220,11 +178,15 @@
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,16 +220,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578057838399" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578275520296" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Phase 1/antlr/antlr-4.7.2-complete.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -325,8 +287,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -334,19 +297,19 @@
       <window_info id="Learn" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Tool Output" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,12 +328,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java</url>
-          <line>27</line>
+          <line>54</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="currNode" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../../Phase 1/antlr/antlr-4.5-complete.jar!/org/antlr/v4/runtime/Lexer.class">
@@ -387,40 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#2025#2026#0" expanded="true" />
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
-            <element signature="e#2165#2166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../Phase 1/antlr/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -428,17 +362,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLParser.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="264" selection-start-line="264" selection-end-line="264" />
+        <state relative-caret-position="81">
+          <caret line="1001" column="19" selection-start-line="1001" selection-start-column="19" selection-end-line="1001" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
+        <state relative-caret-position="306">
+          <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+          <folding>
+            <element signature="e#237#261#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Jafar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="222" column="33" selection-start-line="222" selection-start-column="26" selection-end-line="222" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -447,35 +400,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/InheritanceCycleDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="187">
+          <caret line="46" column="89" lean-forward="true" selection-start-line="46" selection-start-column="89" selection-end-line="46" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#206#230#0" expanded="true" />
-            <element signature="e#735#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/MethodReturnTypeChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Phase 1/antlr/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#6955#6956#0" expanded="true" />
+            <element signature="e#6988#6989#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/COOLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="1085" column="40" selection-start-line="1085" selection-start-column="40" selection-end-line="1085" selection-end-column="40" />
+          <folding>
+            <element signature="e#8326#8327#0" expanded="true" />
+            <element signature="e#8372#8373#0" expanded="true" />
+            <element signature="e#34278#34279#0" expanded="true" />
+            <element signature="e#34335#34336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Phase 1/antlr/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Phase 1/antlr/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/CommonToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#2786#2787#0" expanded="true" />
+            <element signature="e#2818#2819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/COOL.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/RuleUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTableTraverser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="158">
+          <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#176#185#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1767#1768#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANTLR_COOL_Program/ANTLR_COOL_Program/SymbolTable/SymbolTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="116" selection-end-column="45" />
+          <folding>
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
           </folding>
         </state>
       </provider>

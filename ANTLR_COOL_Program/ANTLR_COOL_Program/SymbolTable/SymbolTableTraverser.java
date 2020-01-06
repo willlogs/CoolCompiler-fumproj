@@ -65,6 +65,11 @@ public class SymbolTableTraverser extends COOLBaseListener {
         CheckMethodParamMatching(ctx,currNode);
     }
 
+    @Override
+    public void enterAssignment(COOLParser.AssignmentContext ctx){
+        CheckAssignmentTypes(ctx, currNode);
+    }
+
     private void EnterTable(){
             //enter next current node's childs
             currNode = currNode.decs.get(traversedNodes.peek());
@@ -82,6 +87,24 @@ public class SymbolTableTraverser extends COOLBaseListener {
             currNode = currNode.parent;
         }
         traversedNodes.pop();
+    }
+
+    void CheckAssignmentTypes(COOLParser.AssignmentContext ctx, Table currNode){
+        RuleUtility.IntRef errorLine = new RuleUtility.IntRef(ctx.getStart().getLine());
+        String leftVar = ctx.OBJECTID().getSymbol().getText();
+        String rightExpr = RuleUtility.GetExpressionType(ctx.expression(), currNode, errorLine);
+        Table leftTable = FindSymbol(leftVar, currNode);
+        String leftType;
+        if(leftTable.type.equals("Class")){
+            leftType = leftTable.id;
+        }
+        else{
+            leftType = leftTable.properties[0];
+        }
+        if(!leftType.equals(rightExpr)){
+            System.out.println(String.format("Error 230: in line [%1$s] incompatible types, [%2$s] can not be converted to [%3$s]"
+                    ,errorLine.value, rightExpr, leftType));
+        }
     }
 
     void CheckMethodParamMatching(MethodCallContext ctx, Table currNode){
@@ -121,9 +144,11 @@ public class SymbolTableTraverser extends COOLBaseListener {
     }
 
     public static Table FindType(String typeText){
-        for(int i=0; i< programTable.decs.size(); i++){
-            if(typeText.equals(programTable.decs.get(i).id)){
-                return programTable.decs.get(i);
+        if(typeText != null){
+            for(int i=0; i< programTable.decs.size(); i++){
+                if(typeText.equals(programTable.decs.get(i).id)){
+                    return programTable.decs.get(i);
+                }
             }
         }
 
@@ -137,9 +162,17 @@ public class SymbolTableTraverser extends COOLBaseListener {
             }
         }
 
+        //find in base classes members
+        if(currentTable.type.equals("Class")){
+            Table baseClass = FindType(currentTable.properties[0]);
+            if(baseClass != null){
+                return FindSymbol(symbolText, baseClass);
+            }
+        }
+
         //find in parent
         if(currentTable.parent != null){
-            return  FindSymbol(symbolText, currentTable.parent);
+            return FindSymbol(symbolText, currentTable.parent);
         }
 
         return null;
