@@ -92,6 +92,16 @@ public class SymbolTableTraverser extends COOLBaseListener {
         CheckBinaryOperandTypes(ctx.expression(0), ctx.expression(1));
     }
 
+    @Override
+    public void enterNegative(NegativeContext ctx){
+        CheckUnaryOperationType(ctx.expression(),"Int", "Negative");
+    }
+
+    @Override
+    public void enterBoolNot(BoolNotContext ctx){
+        CheckUnaryOperationType(ctx.expression(), "Bool", "Bool Not");
+    }
+
     private void EnterTable(){
             //enter next current node's childs
             currNode = currNode.decs.get(traversedNodes.peek());
@@ -174,6 +184,16 @@ public class SymbolTableTraverser extends COOLBaseListener {
         if(operationType == null){
             System.out.println(String.format("Error 240: in line [%1$s], operation not defined on type [%2$s] and [%3$s]"
                 ,errorLine.value, leftType, rightType));
+        }
+    }
+
+    private void CheckUnaryOperationType(ExpressionContext operand, String desiredType, String operatorName){
+        RuleUtility.IntRef errorLine = new RuleUtility.IntRef(0);
+        String opType = RuleUtility.GetExpressionType(operand, currNode, errorLine);
+
+        if(opType != null && !opType.equals(desiredType)){
+            System.out.println(String.format("Error 250: in line [%1$s], operation [%2$s] not defined on type [%3$s]"
+                    ,errorLine.value, operatorName, opType));
         }
     }
 
