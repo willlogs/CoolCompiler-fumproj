@@ -108,6 +108,22 @@ public class RuleUtility {
                 return methodSymbol.properties[0];
             }
         }
+        else if(ctx instanceof AddContext){
+            AddContext addCtx = (AddContext)ctx;
+            return GetBinaryOperationType(addCtx.expression(0), addCtx.expression(1), currNode, errorLine);
+        }
+        else if(ctx instanceof MinusContext){
+            MinusContext minusCtx = (MinusContext)ctx;
+            return GetBinaryOperationType(minusCtx.expression(0), minusCtx.expression(1), currNode, errorLine);
+        }
+        else if(ctx instanceof MultiplyContext){
+            MultiplyContext mulCtx = (MultiplyContext)ctx;
+            return GetBinaryOperationType(mulCtx.expression(0), mulCtx.expression(1), currNode, errorLine);
+        }
+        else if(ctx instanceof DivisionContext){
+            DivisionContext divCtx = (DivisionContext)ctx;
+            return GetBinaryOperationType(divCtx.expression(0), divCtx.expression(1), currNode, errorLine);
+        }
 
         return null;
     }
@@ -151,6 +167,29 @@ public class RuleUtility {
         }
 
         return false;
+    }
+
+    public static String GetBinaryOperationType(ExpressionContext leftOperand, ExpressionContext rightOperand, Table currNode
+        , IntRef errorLine){
+        String leftType = GetExpressionType(leftOperand, currNode, errorLine);
+        String rightType = GetExpressionType(rightOperand, currNode, errorLine);
+        return GetBinaryOperationType(leftType, rightType, currNode, errorLine);
+    }
+
+    public  static String GetBinaryOperationType(String leftType, String rightType, Table currNode
+            , IntRef errorLine){
+        if(leftType != null && leftType.equals("String")){
+            return "String";
+        }
+        if(rightType != null && rightType.equals("String")){
+            return "String";
+        }
+        else if(leftType != null && leftType.equals("Int") && leftType.equals(rightType)){
+            return "Int";
+        }
+
+        //no valid operation so operation type has no meaning
+        return null;
     }
 
     public static class IntRef{

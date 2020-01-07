@@ -2,6 +2,8 @@ package ANTLR_COOL_Program.SymbolTable;
 
 import ANTLR_COOL_Program.COOLBaseListener;
 import ANTLR_COOL_Program.COOLParser;
+import org.antlr.v4.tool.Rule;
+
 import static ANTLR_COOL_Program.COOLParser.*;
 
 import java.util.Stack;
@@ -68,6 +70,26 @@ public class SymbolTableTraverser extends COOLBaseListener {
     @Override
     public void enterAssignment(COOLParser.AssignmentContext ctx){
         CheckAssignmentTypes(ctx, currNode);
+    }
+
+    @Override
+    public void enterAdd(AddContext ctx){
+        CheckBinaryOperandTypes(ctx.expression(0), ctx.expression(1));
+    }
+
+    @Override
+    public void enterMinus(MinusContext ctx){
+        CheckBinaryOperandTypes(ctx.expression(0), ctx.expression(1));
+    }
+
+    @Override
+    public void enterMultiply(MultiplyContext ctx){
+        CheckBinaryOperandTypes(ctx.expression(0), ctx.expression(1));
+    }
+
+    @Override
+    public void enterDivision(DivisionContext ctx){
+        CheckBinaryOperandTypes(ctx.expression(0), ctx.expression(1));
     }
 
     private void EnterTable(){
@@ -140,6 +162,18 @@ public class SymbolTableTraverser extends COOLBaseListener {
         if(invokedReturnType != null && !returnType.equals(invokedReturnType)){
             System.out.println(String.format("Error 210: in line [%1$s], method [%3$s], return type [%2$s] must be of type [%4$s]"
                     , errorLine.value, invokedReturnType, ctx.OBJECTID().getSymbol().getText(), returnType));
+        }
+    }
+
+    private void CheckBinaryOperandTypes(ExpressionContext leftOperand, ExpressionContext rightOperand){
+        RuleUtility.IntRef errorLine = new RuleUtility.IntRef(0);
+        String leftType = RuleUtility.GetExpressionType(leftOperand, currNode, errorLine);
+        String rightType = RuleUtility.GetExpressionType(rightOperand, currNode, errorLine);
+        String operationType = RuleUtility.GetBinaryOperationType(leftType, rightType, currNode, errorLine);
+
+        if(operationType == null){
+            System.out.println(String.format("Error 240: in line [%1$s], operation not defined on type [%2$s] and [%3$s]"
+                ,errorLine.value, leftType, rightType));
         }
     }
 
