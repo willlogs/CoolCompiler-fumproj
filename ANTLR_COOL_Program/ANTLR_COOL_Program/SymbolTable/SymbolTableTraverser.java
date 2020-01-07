@@ -33,6 +33,7 @@ public class SymbolTableTraverser extends COOLBaseListener {
     @Override
     public void enterClassDefine(COOLParser.ClassDefineContext ctx) {
         EnterTable();
+        CheckBaseClassType(ctx);
         classUtility.CheckCycle(currNode);
     }
 
@@ -194,6 +195,16 @@ public class SymbolTableTraverser extends COOLBaseListener {
         if(opType != null && !opType.equals(desiredType)){
             System.out.println(String.format("Error 250: in line [%1$s], operation [%2$s] not defined on type [%3$s]"
                     ,errorLine.value, operatorName, opType));
+        }
+    }
+
+    private void CheckBaseClassType(ClassDefineContext ctx){
+        if(ctx.TYPEID(1) != null){
+            String baseClassName = ctx.TYPEID(1).getSymbol().getText();
+            if(baseClassName.equals("Int") || baseClassName.equals("String") || baseClassName.equals("Bool")){
+                System.out.println(String.format("Error 260: in line [%1$s], class [%2$s] can not inherit from class [%3$s]"
+                        ,ctx.TYPEID(0).getSymbol().getLine(), ctx.TYPEID(0).getSymbol().getText(), baseClassName));
+            }
         }
     }
 
